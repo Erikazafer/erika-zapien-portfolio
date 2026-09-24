@@ -220,6 +220,19 @@
   @media(max-width:640px){.event-field{padding:16px 22px;}}
   .event-card:not(:has(.event-photo)) .event-fields{border-top:1px solid var(--rule);}
 
+  /* ---------- BRAND PARTNERSHIPS ---------- */
+  .partner-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;}
+  @media(max-width:900px){.partner-grid{grid-template-columns:1fr;}}
+  .partner-card{border:1px solid var(--rule);padding:32px 28px;display:flex;flex-direction:column;}
+  .partner-eyebrow{font-size:12px;color:var(--brass);font-weight:600;margin:0 0 14px;}
+  .partner-title{
+    font-family:var(--serif);font-weight:500;font-size:20px;line-height:1.25;
+    margin:0 0 22px;padding-bottom:20px;border-bottom:1px solid var(--rule);
+  }
+  .partner-field{margin-bottom:18px;}
+  .partner-tags{display:flex;flex-wrap:wrap;gap:8px;padding-top:16px;margin-top:auto;border-top:1px solid var(--rule);}
+  .partner-tag{font-size:11px;color:var(--brass);border:1px solid var(--rule);padding:5px 9px;line-height:1.2;}
+
   /* ---------- GALLERY ---------- */
   .gallery{
     display:grid;grid-template-columns:repeat(4,1fr);gap:2px;background:var(--rule);
@@ -303,6 +316,7 @@
       <li><a href="#approach">Approach</a></li>
       <li><a href="#experience">Experience</a></li>
       <li><a href="#events">Events</a></li>
+      <li><a href="#partnerships">Partnerships</a></li>
       <li><a href="#impact">Impact</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
@@ -496,7 +510,58 @@
   </div>
 </section>
 
-<section class="alt">
+<section id="partnerships" class="alt">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="section-label">Brand partnerships &amp; activations</p>
+      <h2 class="section-title">Connecting brands to build commercial opportunity</h2>
+      <p class="section-intro">Alongside account management and market entry, part of my work was spotting where two brands in my network could complement each other — identifying the opportunity, proposing the connection, and facilitating the initial conversation that could lead to a joint activation.</p>
+    </div>
+
+    <div class="partner-grid">
+      <div class="partner-card">
+        <p class="partner-eyebrow">Brand Partnership</p>
+        <p class="partner-title">Phase Eight &amp; Hobbs × Rare Tea Company</p>
+        <div class="partner-field"><p class="field-label">Opportunity</p><p class="field-text">Phase Eight and Hobbs were exploring a seasonal activation within El Palacio de Hierro and were looking for a complementary brand to build the collaboration around.</p></div>
+        <div class="partner-field"><p class="field-label">My role</p><p class="field-text">I identified Rare Tea Company as a potentially complementary partner and facilitated the introduction between the parties.</p></div>
+        <div class="partner-tags">
+          <span class="partner-tag">Brand Matchmaking</span>
+          <span class="partner-tag">Cross-Category Partnership</span>
+          <span class="partner-tag">Retail Activation</span>
+          <span class="partner-tag">Fashion × Tea</span>
+        </div>
+      </div>
+
+      <div class="partner-card">
+        <p class="partner-eyebrow">Brand Partnership</p>
+        <p class="partner-title">Hamleys × Macmillan</p>
+        <div class="partner-field"><p class="field-label">Opportunity</p><p class="field-text">Hamleys, the British toy retailer, was interested in exploring an activation focused on children's engagement.</p></div>
+        <div class="partner-field"><p class="field-label">My role</p><p class="field-text">I identified Macmillan as a complementary organization and facilitated the connection to explore the collaboration.</p></div>
+        <div class="partner-tags">
+          <span class="partner-tag">Partnership Development</span>
+          <span class="partner-tag">Community Activation</span>
+          <span class="partner-tag">Children's Engagement</span>
+          <span class="partner-tag">Cross-Sector Connection</span>
+        </div>
+      </div>
+
+      <div class="partner-card">
+        <p class="partner-eyebrow">Brand Partnership</p>
+        <p class="partner-title">Brompton × Hackett London</p>
+        <div class="partner-field"><p class="field-label">Opportunity</p><p class="field-text">Brompton was exploring a collaboration built around a bike ride activation in Mexico City.</p></div>
+        <div class="partner-field"><p class="field-label">My role</p><p class="field-text">I identified Hackett London as a potential partner and facilitated the introduction to help develop the collaboration.</p></div>
+        <div class="partner-tags">
+          <span class="partner-tag">Strategic Brand Partnership</span>
+          <span class="partner-tag">Lifestyle Activation</span>
+          <span class="partner-tag">Cross-Brand Collaboration</span>
+          <span class="partner-tag">Event-Based Partnership</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="alt" style="padding-top:0;">
   <div class="wrap">
     <div class="section-head">
       <p class="section-label">Stakeholder engagement</p>
@@ -523,7 +588,6 @@
       <div class="impact-cell"><p class="impact-num">+22%</p><p class="impact-label">2024 commercial goals</p><p class="impact-ctx">Commercial goals exceeded by 22% in 2024.</p></div>
       <div class="impact-cell"><p class="impact-num">+8%</p><p class="impact-label">2025 commercial goals</p><p class="impact-ctx">Commercial goals exceeded by 8% in 2025.</p></div>
       <div class="impact-cell"><p class="impact-num">60+</p><p class="impact-label">Distributor accounts</p><p class="impact-ctx">European distributor accounts managed across the region at Grupo PSA.</p></div>
-      <div class="impact-cell"><p class="impact-num">15</p><p class="impact-label">Monthly shipments</p><p class="impact-ctx">Average international shipments coordinated with logistics and operations teams.</p></div>
     </div>
   </div>
 </section>
